@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/amarbir22/gift-exchange/issues"
   },
-  "homepage": "https://github.com/amarbir22/gift-exchange#readme"
+  "homepage": "https://github.com/amarbir22/gift-exchange#readme",
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "lerna": "^5.4.3"
+  }
 }
