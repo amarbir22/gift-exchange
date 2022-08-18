@@ -4,8 +4,12 @@
   "description": "Gift Exchange is a full-stack web application to facilitate random assignment of gifts among a group of friends.",
   "main": "index.js",
   "scripts": {
+    "start": "lern run start",
     "test": "lerna run test",
-    "build": "lerna run build"
+    "build": "lerna run build",
+    "bootstrap": "lerna bootstrap",
+    "clean": "lerna clean",
+    "hoist": "lerna bootstrap --hoist"
   },
   "repository": {
     "type": "git",
